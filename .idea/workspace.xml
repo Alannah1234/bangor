@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec309d7-f28c-4fa3-96f3-acfd8fd27d3d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee1 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee2 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee3 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee4 Commentée.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee5 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee6 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee8 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wireframes/Odyssee9 Commentée.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p01.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p02.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p03.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p04.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p05.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p06.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p07.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p08.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/balsamiq_ilovepdf_split_all/p09.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/organisationPrincipale.css" beforeDir="false" />
+    <list default="true" id="9ec309d7-f28c-4fa3-96f3-acfd8fd27d3d" name="Default" comment="le rendu de mercredi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-259">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -57,6 +49,7 @@
         <option value="$PROJECT_DIR$/test2.html" />
         <option value="$PROJECT_DIR$/test1.html" />
         <option value="$PROJECT_DIR$/Test3.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -108,6 +101,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1 rendu" />
       <recent name="C:\Users\Alannah Epaulard\Documents\piscine\bangor" />
       <recent name="C:\Users\Alannah Epaulard\Documents\piscine\bangor\bootstrap" />
       <recent name="C:\Users\Alannah Epaulard\Documents\piscine\bangor\1 rendu" />
@@ -154,19 +148,33 @@
       <option name="project" value="LOCAL" />
       <updated>1525245857660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="le rendu de mercredi">
+      <created>1525256171112</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525256171112</updated>
+    </task>
+    <task id="LOCAL-00004" summary="le rendu de mercredi">
+      <created>1525256323594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525256323594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4257000" />
+    <option name="totallyTimeSpent" value="4887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17986111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986111" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32566586" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32566586" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -205,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test de MAX" />
     <MESSAGE value="rangement" />
-    <option name="LAST_COMMIT_MESSAGE" value="rangement" />
+    <MESSAGE value="le rendu de mercredi" />
+    <option name="LAST_COMMIT_MESSAGE" value="le rendu de mercredi" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test2.html">
@@ -281,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-259">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
         </state>
       </provider>
     </entry>
