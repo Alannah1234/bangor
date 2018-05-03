@@ -1,0 +1,57 @@
+.blue{
+    height: 60px;
+    background-color: #007079;
+}
+
+.navbar-brand{
+    color: #d9edf7;
+}
+
+#navigationprincipale{
+    color: #007079;
+}
+
+#inputboutonrecherche{
+    border-radius: 5px;
+    height: 30px;
+}
+
+#boutonrecherche{
+
+    height: 30px;
+    width: 10px;
+    margin-top: 9px;
+}
+#iconrecherche{
+    padding-bottom: 6px;
+}
+
+.form-control{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#imageevenement{
+    height: 25px;
+    width: 25px;
+    margin-left: -10px;
+}
+#titrevenement{
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 3px;
+}
+#detailsevenement{
+    font-size: 11px;
+    padding-left: 3px;
+}
+#prenomnomauteur{
+    font-weight: bold;
+    padding-left: 6px;
+}
+#detailpublication{
+    padding-left: 6px;
+}
+
+#publicationi{
+    border-bottom-color: #007079;
+}
