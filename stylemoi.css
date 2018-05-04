@@ -58,3 +58,70 @@
 #listevenements{
     margin-top: 10px;
 }
+
+.mdb-feed{
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+.view {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.name{
+    color: #000000;
+    font-weight: bold;
+}
+.date{
+    color: #000000;
+    font-size: small;
+}
+
+
+#photopubliee{
+    max-height: auto;
+    width: 200px;
+    margin: 5px;
+}
+.comment{
+    color: #000000;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.text{
+    color: #000000
+;
+}
+.md-textarea{
+    color: #000000;
+}
+
+.thumbs{
+    color: #000000;
+}
+
+.news{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#reply{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#cancel{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#photoprofil{
+    max-height: 100%;
+    width: 45px;
+}
+
+#logo{
+    margin-top: -35px;
+}

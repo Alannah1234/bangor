@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns:http="http://www.w3.org/1999/xhtml">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>profil</title>
+    <title>reseau</title>
     <meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
     <meta name="author" content="ATM.com">
 
@@ -24,8 +24,8 @@
 
     <!-- Worthy core CSS file -->
     <link href="css/style.css" rel="stylesheet">
-
-    <link href="profil.css" rel="stylesheet">
+    <link href="stylemoi.css" rel="stylesheet">
+    <link href="reseau.css" rel="stylesheet">
 
     <!-- Custom css -->
     <link href="css/custom.css" rel="stylesheet">
@@ -47,78 +47,51 @@
 
 <div  class="container-fluid">
     <div class="row">
-        <div class="container col-md-10">
-            <div id="containerduprofil" class="container-fluid">
-                <div id="profiltitre" class="media" style="background-image: url(http://fbuzz.net/wp-content/uploads/2012/insolite-03/Couverture-Insolite-Facebook-82.jpg);background-position: center center; " >
-                    <img id="photoprofil" align="left" class="d-flex mr-4" src="MS_0161.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h2 id="prenomnomauteur" class="mt-0 font-weight-bold white-text" style="background-color: rgba(0, 112, 121, 0.7); color: #f0f0f0">
-                            Alannah Epaulard
-                        </h2>
+        <div id="reseauaffiche" class="container col-md-10">
+            <!-- Card -->
+            <div  class="container" >
+
+                <div id="perso1" class="card col-md-3" style="background-color: rgba(0,112,117)" >
+                    <img id="profil" class="card-img-top " src="MS_0161.jpg" alt="Card image cap"  >
+                    <img id="couverture" class="card-img-top" src="http://fbuzz.net/wp-content/uploads/2012/insolite-03/Couverture-Insolite-Facebook-82.jpg" alt="Card image cap">
+                    <!-- Card image -->
+
+                    <div class="view overlay">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="prenomnom" style="color: #FFFFFF">Alannah Epaulard</h4>
+                        <!-- Text -->
+                        <p class="card-text"style="color: #FFFFFF">Je cherche un stage pour X semaines</p>
                     </div>
                 </div>
-            </div>
-            <div id="situation" class="container" style="background-color: #FFFFFF;">
-                <h3 id="volonte"> Je cherche un stage de N semaines</h3>
-            </div>
-            <div id="profildetails" class="container">
+                <div id="perso1" class="card col-md-3" style="background-color: rgba(0,112,117)" >
+                    <img id="profil" class="card-img-top " src="MS_0161.jpg" alt="Card image cap"  >
+                    <img id="couverture" class="card-img-top" src="http://fbuzz.net/wp-content/uploads/2012/insolite-03/Couverture-Insolite-Facebook-82.jpg" alt="Card image cap">
+                    <!-- Card image -->
 
-                <div id="experiencesprofil" class="container col-md-4" style="background-color: #f0f0f0" >
-                    <h3 style="color: #007079;">Experiences</h3>
-                    <div class="media" id="experience1">
-                        <h5 id="entreprise"> Microsoft</h5>
-                        <h6 id="date">Du 31/12/2016 au 3/2/2017</h6>
-                        <h6 id="details">Assistante Evangelist Marketing, Developer eXperience</h6>
-
+                    <div class="view overlay">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
                     </div>
-                    <div class="media" id="experience2">
-                        <h5 id="entreprise"> Bubulle</h5>
-                        <h6 id="date"> 31/1/2019</h6>
-                        <h6 id="details">Assistante chef de projet Marketing</h6>
 
-                    </div>
-                    <div class="media" id="experience3">
-                        <h5 id="entreprise"> </h5>
-                        <h6 id="date"></h6>
-                        <h6 id="details"></h6>
-
-                    </div>
-                    <div class="media" id="experience4">
-                        <h5 id="entreprise"> </h5>
-                        <h6 id="date"></h6>
-                        <h6 id="details"></h6>
-
-                    </div>
-                    <div class="media" id="experience5">
-                        <h5 id="entreprise"></h5>
-                        <h6 id="date"></h6>
-                        <h6 id="details"></h6>
-
-                    </div>
-                </div>
-                <div id="formationsprofil" class="container col-md-4" style="background-color: #f0f0f0">
-                    <h3 style="color: #007079">Formations</h3>
-                    <div class="media" id="formation1">
-                        <h5 id="ecole">ECE Paris</h5>
-                        <h6 id="date">De 2015 a 2020</h6>
-                        <h6 id="details">Pour la rentree 2018/2019 je pense m'orienter vers la majeur systemes d'informations, big data, cybersecurite.</h6>
-
-                    </div>
-                    <div class="media" id="formation2">
-                        <h5 id="ecole">Lycee St Leon</h5>
-                        <h6 id="date">De 2012 a 2015</h6>
-                        <h6 id="details">Bac S, Spe Maths</h6>
-
-                    </div>
-                    <div class="media" id="formation3">
-                        <h5 id="ecole"></h5>
-                        <h6 id="date"></h6>
-                        <h6 id="details"></h6>
-
+                    <!-- Card content -->
+                    <div class="card-body">
+                        <!-- Title -->
+                        <h4 class="prenomnom" style="color: #FFFFFF">Alannah Epaulard</h4>
+                        <!-- Text -->
+                        <p class="card-text"style="color: #FFFFFF">Je cherche un stage pour X semaines</p>
                     </div>
                 </div>
             </div>
         </div>
+
 
         <div class="col-md-2 ">
             <ul id="navigationprincipale" class="nav flex-column">

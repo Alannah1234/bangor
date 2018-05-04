@@ -60,7 +60,7 @@
 
 #profiltitre{
     padding-top: 120px;
-    background: white url("http://fbuzz.net/wp-content/uploads/2012/insolite-03/Couverture-Insolite-Facebook-82.jpg") no-repeat center center;
+
 }
 #photoprofil{
     padding-top: -50px;
@@ -90,4 +90,8 @@
     margin-top: 20px;
     text-align: center;
 
+}
+
+#logo{
+    margin-top: -35px;
 }

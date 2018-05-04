@@ -31,7 +31,9 @@
 </head>
 <body>
   <nav class="container-fluid navbar-light blue">
-      <a class="navbar-brand" href="#">Odyssee</a>
+      <a class="navbar-brand" href="connexion.html">
+          <img id="logo" src="logof.png">
+      </a>
       <div class=row>
           <div class=col-md-3 col-md-8></div>
           <form class="form-inline">
@@ -104,7 +106,7 @@
                         </div>
                         </div>
                 </form>
-            <div id="containerpublicationi" class="container-fluid">
+           <!-- <div id="containerpublicationi" class="container-fluid">
             <div id="publicationi" class="media">
                 <img id="imageprofilauteur" align="left" class="d-flex mr-4" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
                 <div class="media-body">
@@ -114,283 +116,292 @@
             </div>
         </div>
             <!--Newsfeed-->
-            <div class="mdb-feed">
 
-                <!--First news-->
-                <div class="news">
+            <!--Section: Social newsfeed v.2-->
+            <section class="pt-5 pb-3">
 
-                    <!--Label-->
-                    <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1-mini.jpg" class="rounded-circle z-depth-1-half">
-                    </div>
+                        <!--Newsfeed-->
+                        <div class="mdb-feed" style="background-color:rgba(0,121,117,0.7)">
 
-                    <!--Excert-->
-                    <div class="excerpt">
+                            <!--First news-->
+                            <div class="news">
+                                <!--Excert-->
+                                <div class="excerpt">
+                                    <img id="photoprofil" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-1-mini.jpg" >
+                                        <a class="name">John Doe</a> added you as a friend uuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuu uuuuuuuuuuuu
+                                        <div class="date">1 hour ago</div>
 
-                        <!--Brief-->
-                        <div class="brief">
-                            <a class="name">John Doe</a> added you as a friend
-                            <div class="date">1 hour ago</div>
-                        </div>
+                                    <!--Feed footer-->
+                                    <div class="feed-footer">
+                                        <a class="comment" aria-expanded="false" aria-controls="collapseExample-1">Comment</a> &middot;
+                                        <span>
+                                            <a>7</a>
+                                        </span>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
+                                            <i class="fa fa-thumbs-up"></i>
+                                        </a>
 
-                        <!--Feed footer-->
-                        <div class="feed-footer">
-                            <a class="comment" data-toggle="collapse" href="#collapseExample-1" aria-expanded="false" aria-controls="collapseExample-1">Comment</a> &middot;
-                            <span>
-                                <a>7</a>
-                            </span>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
-                            </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>
-                            <div class="collapse" id="collapseExample-1">
-                                <div class="card card-body mt-1">
-                                    <!--Add comment-->
-                                    <div class="md-form mt-1 mb-1">
-                                        <textarea type="text" id="form7" class="md-textarea"></textarea>
-                                        <label for="form7">Add comment</label>
+                                            <div class="card card-body mt-1">
+                                                <div class="comment" style="background-color: #f0f0f0">
+                                                    <img id="photoprofil" src="MS_0161.jpg" >
+                                                    <a class="name">Alannah Epaulard</a>
+                                                    <div class="textcomment">hey nice bro</div>
+                                                    <div class="date">1 hour ago</div>
+
+                                                </div>
+                                                <div class="comment" style="background-color: #f0f0f0">
+                                                    <img id="photoprofil" src="MS_0161.jpg" >
+                                                    <a class="name">Alannah Epaulard</a>
+                                                    <div class="textcomment">hey nice bro</div>
+                                                    <div class="date">1 hour ago</div>
+
+                                                </div>
+                                                <!--Add comment-->
+                                                <div class="md-form mt-1 mb-1">
+                                                    <textarea type="text" id="form7" rows="2" class="form-control" placeholder="Ajouter un commentaire."></textarea>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button id="cancel" type="button" class="btn btn-sm"  aria-expanded="false"
+                                                            aria-controls="collapseExample-1">Cancel</button>
+                                                    <button id="reply" type="button" class="btn btn-sm" aria-expanded="false" style="background-color: #007079; color: #FFFFFF"
+                                                            aria-controls="collapseExample-1">Reply</button>
+                                                </div>
+                                            </div>
+
                                     </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-1" aria-expanded="false"
-                                                aria-controls="collapseExample-1">Cancel</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-1" aria-expanded="false"
-                                                aria-controls="collapseExample-1">Reply</button>
-                                    </div>
+
                                 </div>
+
                             </div>
-                        </div>
+                            <!--First news-->
 
-                    </div>
+                            <!--Second news-->
+                            <div class="news">
 
-                </div>
-                <!--First news-->
+                                <!--Label-->
+                                <div class="label">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(17)-mini.jpg" class="rounded-circle z-depth-1-half">
+                                </div>
 
-                <!--Second news-->
-                <div class="news">
+                                <!--Excert-->
+                                <div class="excerpt">
 
-                    <!--Label-->
-                    <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(17)-mini.jpg" class="rounded-circle z-depth-1-half">
-                    </div>
+                                    <!--Brief-->
+                                    <div class="brief">
+                                        <a class="name">Anna Smith</a> added
+                                        <a> 2 new illustrations</a>
+                                        <div class="date">4 hours ago</div>
+                                    </div>
 
-                    <!--Excert-->
-                    <div class="excerpt">
+                                    <!--Added images-->
+                                    <div class="added-images">
+                                        <img src="https://mdbootstrap.com/img/Photos/Others/images/50.jpg" class="z-depth-1 rounded">
+                                        <img src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg" class="z-depth-1 rounded">
+                                    </div>
 
-                        <!--Brief-->
-                        <div class="brief">
-                            <a class="name">Anna Smith</a> added
-                            <a> 2 new illustrations</a>
-                            <div class="date">4 hours ago</div>
-                        </div>
-
-                        <!--Added images-->
-                        <div class="added-images">
-                            <img src="https://mdbootstrap.com/img/Photos/Others/images/50.jpg" class="z-depth-1 rounded">
-                            <img src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg" class="z-depth-1 rounded">
-                        </div>
-
-                        <!--Feed footer-->
-                        <div class="feed-footer">
-                            <a class="comment" data-toggle="collapse" href="#collapseExample-2" aria-expanded="false" aria-controls="collapseExample-2">Comment</a> &middot;
-                            <span>
+                                    <!--Feed footer-->
+                                    <div class="feed-footer">
+                                        <a class="comment" data-toggle="collapse" href="#collapseExample-2" aria-expanded="false" aria-controls="collapseExample-2">Comment</a> &middot;
+                                        <span>
                                 <a>31</a>
                             </span>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
-                            </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>
-                            <div class="collapse" id="collapseExample-2">
-                                <div class="card card-body mt-1">
-                                    <!--Add comment-->
-                                    <div class="md-form mt-1 mb-1">
-                                        <textarea type="text" id="form7" class="md-textarea"></textarea>
-                                        <label for="form7">Add comment</label>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
+                                            <i class="fa fa-thumbs-up"></i>
+                                        </a>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
+                                            <i class="fa fa-thumbs-down"></i>
+                                        </a>
+                                        <div class="collapse" id="collapseExample-2">
+                                            <div class="card card-body mt-1">
+                                                <!--Add comment-->
+                                                <div class="md-form mt-1 mb-1">
+                                                    <textarea type="text" id="form7" class="md-textarea"></textarea>
+                                                    <label for="form7">Add comment</label>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-2" aria-expanded="false"
+                                                            aria-controls="collapseExample-2">Cancel</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-2" aria-expanded="false"
+                                                            aria-controls="collapseExample-2">Reply</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-2" aria-expanded="false"
-                                                aria-controls="collapseExample-2">Cancel</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-2" aria-expanded="false"
-                                                aria-controls="collapseExample-2">Reply</button>
-                                    </div>
+
                                 </div>
+
                             </div>
-                        </div>
+                            <!--Second news-->
 
-                    </div>
+                            <!--Third news-->
+                            <div class="news">
 
-                </div>
-                <!--Second news-->
+                                <!--Label-->
+                                <div class="label">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9)-mini.jpg" class="rounded-circle z-depth-1-half">
+                                </div>
 
-                <!--Third news-->
-                <div class="news">
+                                <!--Excert-->
+                                <div class="excerpt">
 
-                    <!--Label-->
-                    <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9)-mini.jpg" class="rounded-circle z-depth-1-half">
-                    </div>
+                                    <!--Brief-->
+                                    <div class="brief">
+                                        <a class="name">Danny Moore</a> added you as a friend
+                                        <div class="date">7 hours ago</div>
+                                    </div>
 
-                    <!--Excert-->
-                    <div class="excerpt">
-
-                        <!--Brief-->
-                        <div class="brief">
-                            <a class="name">Danny Moore</a> added you as a friend
-                            <div class="date">7 hours ago</div>
-                        </div>
-
-                        <!--Feed footer-->
-                        <div class="feed-footer">
-                            <a class="comment" data-toggle="collapse" href="#collapseExample-3" aria-expanded="false" aria-controls="collapseExample-3">Comment</a> &middot;
-                            <span>
+                                    <!--Feed footer-->
+                                    <div class="feed-footer">
+                                        <a class="comment" data-toggle="collapse" href="#collapseExample-3" aria-expanded="false" aria-controls="collapseExample-3">Comment</a> &middot;
+                                        <span>
                                 <a>12</a>
                             </span>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
-                            </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>
-                            <div class="collapse" id="collapseExample-3">
-                                <div class="card card-body mt-1">
-                                    <!--Add comment-->
-                                    <div class="md-form mt-1 mb-1">
-                                        <textarea type="text" id="form7" class="md-textarea"></textarea>
-                                        <label for="form7">Add comment</label>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
+                                            <i class="fa fa-thumbs-up"></i>
+                                        </a>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
+                                            <i class="fa fa-thumbs-down"></i>
+                                        </a>
+                                        <div class="collapse" id="collapseExample-3">
+                                            <div class="card card-body mt-1">
+                                                <!--Add comment-->
+                                                <div class="md-form mt-1 mb-1">
+                                                    <textarea type="text" id="form7" class="md-textarea"></textarea>
+                                                    <label for="form7">Add comment</label>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-3" aria-expanded="false"
+                                                            aria-controls="collapseExample-3">Cancel</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-3" aria-expanded="false"
+                                                            aria-controls="collapseExample-3">Reply</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-3" aria-expanded="false"
-                                                aria-controls="collapseExample-3">Cancel</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-3" aria-expanded="false"
-                                                aria-controls="collapseExample-3">Reply</button>
-                                    </div>
+
                                 </div>
+
                             </div>
-                        </div>
+                            <!--Third news-->
 
-                    </div>
+                            <!--Fourth news-->
+                            <div class="news">
 
-                </div>
-                <!--Third news-->
+                                <!--Label-->
+                                <div class="label">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(18)-mini.jpg" class="rounded-circle z-depth-1-half">
+                                </div>
 
-                <!--Fourth news-->
-                <div class="news">
+                                <!--Excert-->
+                                <div class="excerpt">
 
-                    <!--Label-->
-                    <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(18)-mini.jpg" class="rounded-circle z-depth-1-half">
-                    </div>
+                                    <!--Brief-->
+                                    <div class="brief">
+                                        <a class="name">Lili Rose</a> posted on his page
+                                        <div class="date">2 days ago</div>
+                                    </div>
 
-                    <!--Excert-->
-                    <div class="excerpt">
+                                    <!--Added text-->
+                                    <div class="added-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero inventore, iste quas libero eius?
+                                        Vitae sint neque animi alias sunt dolor, accusantium ducimus, non placeat voluptate.</div>
 
-                        <!--Brief-->
-                        <div class="brief">
-                            <a class="name">Lili Rose</a> posted on his page
-                            <div class="date">2 days ago</div>
-                        </div>
-
-                        <!--Added text-->
-                        <div class="added-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero inventore, iste quas libero eius?
-                            Vitae sint neque animi alias sunt dolor, accusantium ducimus, non placeat voluptate.</div>
-
-                        <!--Feed footer-->
-                        <div class="feed-footer">
-                            <a class="comment" data-toggle="collapse" href="#collapseExample-4" aria-expanded="false" aria-controls="collapseExample-4">Comment</a> &middot;
-                            <span>
+                                    <!--Feed footer-->
+                                    <div class="feed-footer">
+                                        <a class="comment" data-toggle="collapse" href="#collapseExample-4" aria-expanded="false" aria-controls="collapseExample-4">Comment</a> &middot;
+                                        <span>
                                 <a>25</a>
                             </span>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
-                            </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>
-                            <div class="collapse" id="collapseExample-4">
-                                <div class="card card-body mt-1">
-                                    <!--Add comment-->
-                                    <div class="md-form mt-1 mb-1">
-                                        <textarea type="text" id="form7" class="md-textarea"></textarea>
-                                        <label for="form7">Add comment</label>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
+                                            <i class="fa fa-thumbs-up"></i>
+                                        </a>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
+                                            <i class="fa fa-thumbs-down"></i>
+                                        </a>
+                                        <div class="collapse" id="collapseExample-4">
+                                            <div class="card card-body mt-1">
+                                                <!--Add comment-->
+                                                <div class="md-form mt-1 mb-1">
+                                                    <textarea type="text" id="form7" class="md-textarea"></textarea>
+                                                    <label for="form7">Add comment</label>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-4" aria-expanded="false"
+                                                            aria-controls="collapseExample-4">Cancel</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-4" aria-expanded="false"
+                                                            aria-controls="collapseExample-4">Reply</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-4" aria-expanded="false"
-                                                aria-controls="collapseExample-4">Cancel</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-4" aria-expanded="false"
-                                                aria-controls="collapseExample-4">Reply</button>
-                                    </div>
+
                                 </div>
+
                             </div>
-                        </div>
+                            <!--Fourth news-->
 
-                    </div>
+                            <!--Fifth news-->
+                            <div class="news">
 
-                </div>
-                <!--Fourth news-->
+                                <!--Label-->
+                                <div class="label">
+                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20)-mini.jpg" class="rounded-circle z-depth-1-half">
+                                </div>
 
-                <!--Fifth news-->
-                <div class="news">
+                                <!--Excert-->
+                                <div class="excerpt">
 
-                    <!--Label-->
-                    <div class="label">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20)-mini.jpg" class="rounded-circle z-depth-1-half">
-                    </div>
+                                    <!--Brief-->
+                                    <div class="brief">
+                                        <a class="name">Kate Harrison</a> added
+                                        <a> 2 new photos</a> of you
+                                        <div class="date">3 days ago</div>
+                                    </div>
 
-                    <!--Excert-->
-                    <div class="excerpt">
+                                    <!--Added images-->
+                                    <div class="added-images">
+                                        <img src="https://mdbootstrap.com/img/Photos/Others/images/81.jpg" class="z-depth-1 rounded">
+                                        <img src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg" class="z-depth-1 rounded">
+                                    </div>
 
-                        <!--Brief-->
-                        <div class="brief">
-                            <a class="name">Kate Harrison</a> added
-                            <a> 2 new photos</a> of you
-                            <div class="date">3 days ago</div>
-                        </div>
-
-                        <!--Added images-->
-                        <div class="added-images">
-                            <img src="https://mdbootstrap.com/img/Photos/Others/images/81.jpg" class="z-depth-1 rounded">
-                            <img src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg" class="z-depth-1 rounded">
-                        </div>
-
-                        <!--Feed footer-->
-                        <div class="feed-footer">
-                            <a class="comment" data-toggle="collapse" href="#collapseExample-5" aria-expanded="false" aria-controls="collapseExample-5">Comment</a> &middot;
-                            <span>
+                                    <!--Feed footer-->
+                                    <div class="feed-footer">
+                                        <a class="comment" data-toggle="collapse" href="#collapseExample-5" aria-expanded="false" aria-controls="collapseExample-5">Comment</a> &middot;
+                                        <span>
                                 <a>47</a>
                             </span>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
-                                <i class="fa fa-thumbs-up"></i>
-                            </a>
-                            <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
-                                <i class="fa fa-thumbs-down"></i>
-                            </a>
-                            <div class="collapse" id="collapseExample-5">
-                                <div class="card card-body mt-1">
-                                    <!--Add comment-->
-                                    <div class="md-form mt-1 mb-1">
-                                        <textarea type="text" id="form7" class="md-textarea"></textarea>
-                                        <label for="form7">Add comment</label>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I like it">
+                                            <i class="fa fa-thumbs-up"></i>
+                                        </a>
+                                        <a class="thumbs" data-toggle="tooltip" data-placement="top" title="I don't like it">
+                                            <i class="fa fa-thumbs-down"></i>
+                                        </a>
+                                        <div class="collapse" id="collapseExample-5">
+                                            <div class="card card-body mt-1">
+                                                <!--Add comment-->
+                                                <div class="md-form mt-1 mb-1">
+                                                    <textarea type="text" id="form7" class="md-textarea"></textarea>
+                                                    <label for="form7">Add comment</label>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-5" aria-expanded="false"
+                                                            aria-controls="collapseExample-5">Cancel</button>
+                                                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-5" aria-expanded="false"
+                                                            aria-controls="collapseExample-5">Reply</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="d-flex justify-content-end">
-                                        <button type="button" class="btn-flat waves-effect" data-toggle="collapse" data-target="#collapseExample-5" aria-expanded="false"
-                                                aria-controls="collapseExample-5">Cancel</button>
-                                        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample-5" aria-expanded="false"
-                                                aria-controls="collapseExample-5">Reply</button>
-                                    </div>
+
                                 </div>
+
                             </div>
+                            <!--Fifth news-->
+
                         </div>
+                        <!--Newsfeed-->
+            </section>
+            <!--Section: Social newsfeed v.2-->
 
-                    </div>
-
-                </div>
-                <!--Fifth news-->
-
-            </div>
-            <!--Newsfeed-->
         </div>
 
        <div class="col-md-2">
