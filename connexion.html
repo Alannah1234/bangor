@@ -32,20 +32,23 @@
 <body>
 <!-- Main navigation -->
 <header>
+    <!-- Navbar -->
+
     <!-- Full Page Intro -->
     <div class="view" style="background-image: url('http://maximumwallhd.com/wp-content/uploads/2015/07/fonds-ecran-paysage-de-reve-1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
         <!-- Mask & flexbox options-->
         <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
             <!-- Content -->
             <div  class="container">
-                <img id="logo" src="logof.png">
                 <!--Grid row-->
                 <div id="test" class="row mt-5">
-
-                    <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left" style="background-size: cover; background-position: center center">
-                        <h1 id="contenerinscription" class="h1-responsive font-weight-bold wow fadeInLeft" style="color: #f0f0f0" data-wow-delay="0.3s">S'inscrire </h1>
-                        <a  class="btn btn-outline-white wow fadeInLeft"  style="color: #f0f0f0" data-wow-delay="0.3s">Sont acceptées: @edu.ece.fr, @edu.fr, @inseec.com</a>
+                    <!--Grid column-->
+                    <div id="contenerinscription" class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left" style="background-size: cover; background-position: center center">
+                        <h1 class="h1-responsive font-weight-bold wow fadeInLeft" style="color: #f0f0f0" data-wow-delay="0.3s">S'inscrire </h1>
+                        <a class="btn btn-outline-white wow fadeInLeft"  style="color: #f0f0f0" data-wow-delay="0.3s">Sont acceptées: @edu.ece.fr, @edu.fr, @inseec.com</a>
                     </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
                     <div  class="col-md-6 col-xl-5">
                         <!--Form-->
                         <div class="card wow fadeInRight" data-wow-delay="0.3s">
@@ -57,21 +60,24 @@
                                     <hr class="hr">
                                 </div>
                                 <!--Body-->
+                                <form id="formul" method="post" action="putaindetraitement.php">
                                 <div class="md-form">
-                                    <input type="email" id="form2" class="white-text form-control" placeholder="Mail">
+                                    <input type="email" name="idco" id="form2" class="white-text form-control" placeholder="Mail">
                                     <label for="form2" class="active"> Mail</label>
                                 </div>
                                 </br>
                                 <div class="md-form">
-                                    <input type="password" id="form4" class="white-text form-control" placeholder="Mot de passe">
+                                    <input type="password" id="form4" class="white-text form-control" name="mdpco" placeholder="Mot de passe">
                                     <label for="form4"> Mot de passe</label>
                                 </div>
                                 </br>
                                 <div class="text-center mt-4">
-                                    <button class="btn btn-indigo">Se connecter</button>
+                                    
+                                    <input class="btn btn-indigo" type="submit" name="Submit">
 
                                     </div>
                                 </div>
+                                </form>
                             </div>
                         </div>
                         <!--/.Form-->
