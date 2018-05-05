@@ -41,6 +41,9 @@
     <a class="navbar-brand" href="connexion.html">
         <img id="logo" src="logof.png">
     </a>
+    <a class="navbar-brand" href="administrateur.html">
+        Administrateur
+    </a>
     <div class=row>
         <div class=col-md-3 col-md-8></div>
         <form class="form-inline">
@@ -54,103 +57,222 @@
 <div  class="container-fluid">
     <div class="row">
         <div class="container col-md-10">
-    <form action="action_page.php">
-        <div class="row">
-            <div class="col-25">
-                <label for="fname">Prenom</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Votre nouveau prenom...">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="lname">Nom</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Votre nouveau nom...">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="password">Mot de passe</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="password" name="passeword" placeholder="Mot de passe..." ></input>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="photoprofilupload">Photo de profil</label>
-            </div>
-            <div class="col-75">
-                <input id="photoprofilupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="photocouvupload">Photo de profil</label>
-            </div>
-            <div class="col-75">
-                <input id="photocouvupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="cvupload">CV (format .jpg)</label>
-            </div>
-            <div class="col-75">
-                <input id="cvupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="situation">Situation</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="situation" name="situation" placeholder="Situation..." ></input>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label>Experience</label>
-            </div>
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Ajouter</button>
-            <div id="demo" class="collapse">
-
-                    <div id="ajouteruneex" class="row">
-                        <div class="col-25">
-                            <label for="intitule">intitule</label>
-                        </div>
-                        <div class="col-25">
-                            <input type="text" id="intitule" name="intitule" placeholder="intitule.." ></input>
-                        </div>
-                    </div>
+            <form action="action_page.php">
                 <div class="row">
                     <div class="col-25">
-                        <label for="datedebut">date de debut</label>
+                        <label for="fname">Prenom</label>
                     </div>
-                    <div class="col-25">
-                        <input type="text" id="datedebut" name="datedebut" placeholder="date.." ></input>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Votre nouveau prenom...">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-25">
-                        <label for="datefin">date de fin</label>
+                        <label for="lname">Nom</label>
                     </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Votre nouveau nom...">
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-25">
-                        <input type="text" id="datefin" name="datefin" placeholder="date.." ></input>
+                        <label for="password">Mot de passe</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="password" name="passeword" placeholder="Mot de passe..." ></input>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="photoprofilupload">Photo de profil</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="photoprofilupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="photocouvupload">Photo de profil</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="photocouvupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cvupload">CV (format .jpg)</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="cvupload" type="file" title="Choisissez un fichier à importer" accept="image/*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="situation">Situation</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="situation" name="situation" placeholder="Situation..." ></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label>Experience</label>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Ajouter</button>
+                    <div id="demo" class="collapse">
 
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                                <label for="intitule">Intitule</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="intitule" name="intitule" placeholder="intitule.." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="datedebut">Date de debut</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="datedebut" name="datedebut" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="datefin">Date de fin</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="datefin" name="datefin" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="entreprise">Entreprise</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="entreprise" name="entreprise" placeholder="entreprise..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="description">Description</label>
+                            </div>
+                            <div class="col-50">
+                                <input type="text" id="description" name="description" placeholder="description..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="lien">Lien/ref. internet</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="lien" name="lien" placeholder="lien..." ></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label></label>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Modifier</button>
+                    <div id="demo1" class="collapse">
 
-        <div class="row">
-            <input type="submit" value="Submit">
+                        <div id="muneex" class="row">
+
+                            <div class="col-25">
+                                <label for="mintitule">Intitule</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mintitule" name="mintitule" placeholder="intitule.." ></input>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdatedebut">Date de debut</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mdatedebut" name="mdatedebut" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdatefin">Date de fin</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mdatefin" name="mdatefin" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mentreprise">Entreprise</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mentreprise" name="mentreprise" placeholder="entreprise..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdescription">Description</label>
+                            </div>
+                            <div class="col-50">
+                                <input type="text" id="mdescription" name="mdescription" placeholder="description..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mlien">Lien/ref. internet</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mlien" name="mlien" placeholder="lien..." ></input>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label></label>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Supprimer</button>
+                    <div id="demo2" class="collapse">
+
+                        <div id="suneex" class="row">
+                            <div class="col-25">
+                                <label for="sintitule">intitule</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="sintitule" name="sintitule" placeholder="intitule.." ></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </div>
-    </form>
-</div>
 
         <div class="col-md-2">
             <ul id="navigationprincipale" class="nav flex-column">
@@ -182,8 +304,8 @@
                 </li>
             </ul>
         </div>
-        </div>
     </div>
+</div>
 
 
 </body>

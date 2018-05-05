@@ -41,6 +41,9 @@
     <a class="navbar-brand" href="connexion.html">
         <img id="logo" src="logof.png">
     </a>
+    <a class="navbar-brand" href="administrateur.html">
+        Administrateur
+    </a>
     <div class=row>
         <div class=col-md-3 col-md-8></div>
         <form class="form-inline">
@@ -120,37 +123,157 @@
 
                         <div id="ajouteruneex" class="row">
                             <div class="col-25">
-                                <label for="intitule">intitule</label>
+                                <label for="intitule">Intitule</label>
                             </div>
                             <div class="col-25">
                                 <input type="text" id="intitule" name="intitule" placeholder="intitule.." ></input>
                             </div>
                         </div>
-                        <div class="row">
+                        <div id="ajouteruneex" class="row">
                             <div class="col-25">
-                                <label for="datedebut">date de debut</label>
+                            </div>
+                            <div class="col-25">
+                                <label for="datedebut">Date de debut</label>
                             </div>
                             <div class="col-25">
                                 <input type="text" id="datedebut" name="datedebut" placeholder="date.." ></input>
                             </div>
                         </div>
-                        <div class="row">
+                        <div id="ajouteruneex" class="row">
                             <div class="col-25">
-                                <label for="datefin">date de fin</label>
+                            </div>
+                            <div class="col-25">
+                                <label for="datefin">Date de fin</label>
                             </div>
                             <div class="col-25">
                                 <input type="text" id="datefin" name="datefin" placeholder="date.." ></input>
                             </div>
                         </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="entreprise">Entreprise</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="entreprise" name="entreprise" placeholder="entreprise..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="description">Description</label>
+                            </div>
+                            <div class="col-50">
+                                <input type="text" id="description" name="description" placeholder="description..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="lien">Lien/ref. internet</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="lien" name="lien" placeholder="lien..." ></input>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label></label>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Modifier</button>
+                    <div id="demo1" class="collapse">
 
+                        <div id="muneex" class="row">
+
+                            <div class="col-25">
+                                <label for="mintitule">Intitule</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mintitule" name="mintitule" placeholder="intitule.." ></input>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdatedebut">Date de debut</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mdatedebut" name="mdatedebut" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdatefin">Date de fin</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mdatefin" name="mdatefin" placeholder="date.." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mentreprise">Entreprise</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mentreprise" name="mentreprise" placeholder="entreprise..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mdescription">Description</label>
+                            </div>
+                            <div class="col-50">
+                                <input type="text" id="mdescription" name="mdescription" placeholder="description..." ></input>
+                            </div>
+                        </div>
+                        <div id="ajouteruneex" class="row">
+                            <div class="col-25">
+                            </div>
+                            <div class="col-25">
+                                <label for="mlien">Lien/ref. internet</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="mlien" name="mlien" placeholder="lien..." ></input>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label></label>
+                    </div>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Supprimer</button>
+                    <div id="demo2" class="collapse">
+
+                        <div id="suneex" class="row">
+                            <div class="col-25">
+                                <label for="sintitule">intitule</label>
+                            </div>
+                            <div class="col-25">
+                                <input type="text" id="sintitule" name="sintitule" placeholder="intitule.." ></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row">
                     <input type="submit" value="Submit">
                 </div>
             </form>
         </div>
+
         <div class="col-md-2 ">
             <ul id="navigationprincipale" class="nav flex-column">
                 <li class="nav-item">
@@ -164,7 +287,7 @@
                 </li>
 
                 <button type="button" style="background: #f0f0f0; color: #007079; border: #f0f0f0" class="btn btn-primary">
-                    <span class="badge badge-light" style="color: #007079">4</span> Notifications
+                    <span class="badge badge-light" style="color: #007079">0</span> Notifications
                 </button>
 
                 <li class="nav-item">
